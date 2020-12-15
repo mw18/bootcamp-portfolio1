@@ -1,4 +1,4 @@
-# mward_portfolio
+# Portfolio
 HW_02
 
 This is a responsive portfolio using the Bootstrap CSS Framework. 
