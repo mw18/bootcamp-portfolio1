@@ -20,7 +20,7 @@
     font-style: normal;
   }
    
-   [class^="icon-"]:before, [class*=" icon-"]:before {
+   /* [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
@@ -36,7 +36,7 @@
     margin-left: .2em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+  } */
    
   .icon-twitter:before { content: '\f099'; } /* '' */
   .icon-facebook:before { content: '\f09a'; } /* '' */
