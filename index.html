@@ -1,104 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
-    <nav class="navbar navbar-expand-lg navbar-light" style= "background-color:darkseagreen">
-      <a class="navbar-brand" href="#aboutme">Melissa Ward</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#aboutme">About</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href=#contact>Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    
-     </head> 
- <body>
 
-<!---------------------------------------------Projects ------------------------------------------->
-<div class="container" id="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<!---------------------------------------------Nav ------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">M.Ward</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutme">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#work">My Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<body>
+
+<!---------------------------------------------About Me------------------------------------------->
+  <div class="container" id="aboutme">
+
+    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">About Me</h1>
+
+    <hr class="mt-2 mb-5">
+    <p class="text-justify">I am currently enrolled in Northwestern University's Part-time Coding Bootcamp to become a
+      Software Engineer. Please review my resume and portfolio.
+    </p>
+    <div class="resume"></div>
+      <a href="/Ward.docx.pdf" class="btn btn-primary d-flex align-items-center justify-content-center" download="mwardResume">Download my Resume</a>
+    </div>
+
+<!---------------------------------------------Skills------------------------------------------->
+  <div class="container" id="skills">
+
+  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Skills</h1>
+  
+  <hr class="mt-2 mb-5">
+
+  <div class="container" id="aboutme">
+    <div class="row">
+      <div class="col-md-4">
+          <div class="skill">
+              <h4>HTML5/CSS3</h4>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
+              </div><!-- /.progress -->
+          </div><!-- /.skill -->
+          <div class="skill">
+              <h4>JavaScript</h4>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+              </div><!-- /.progress -->
+          </div><!-- /.skill -->
+      </div>
+      <div class="col-md-4">
+          <div class="skill">
+              <h4>Node.Js</h4>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+              </div><!-- /.progress -->
+          </div><!-- /.skill -->
+          <div class="skill">
+              <h4>Express</h4>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-transitiongoal="66"></div><!-- /.progress-bar -->
+              </div><!-- /.progress -->
+          </div><!-- /.skill -->
+      </div>
+      <div class="col-md-4">
+          <div class="skill">
+              <h4>MySQL</h4>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+              </div><!-- /.progress -->
+          </div><!-- /.skill -->
+          <div class="skill">
+              <h4>MongoDB</h4>
+              <div class="progress">
+                  <div class="progress-bar" role="progressbar" data-transitiongoal="45"></div><!-- /.progress-bar -->
+              </div><!-- /.progress -->
+          </div><!-- /.skill -->
+      </div>
+  </div>
+
+  </div>
+ <!---------------------------------------------What I do------------------------------------------->
+
+ <div class="container" id="skills">
+
+<h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">What I Do</h1>
+  
+<hr class="mt-2 mb-5">
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="service">
+      <img src="assets/img/front-end.svg" alt="Front End Developer">
+      <h4>Front-end</h4>
+      <p> I have experience with browser based technologies including HTML5, CSS, JavaScript, and jQuery.
+        Bootstrap in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks
+        such as angular</p>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="service">
+      <img src="assets/img/back-end.svg" alt="Back End Developer">
+      <h4>Back-end</h4>
+      <p>Utilising php frameworks such as Zend or creating bespoke code, I've written services supporting
+        thousands of users, including REST APIs, e-learning applications and more.</p>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="service">
+      <img src="assets/img/consultancy.svg" alt="Coding">
+      <h4>Fullstack</h4>
+      <p>In addition to my front and back end skills, I have experience with Deployment/Command-Line
+        Fundamentals, Heroku and Git. </p>
+    </div>
+  </div>
+</div>
+
+
+
+  <!---------------------------------------------My Work  ------------------------------------------->
+  <div class="container" id="work">
 
   <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Portfolio</h1>
-<hr class="mt-2 mb-5">
-<h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">Front-end Projects:</h2>
-  <div class="row text-center text-lg-left">
-<!--project 1-->
-<div class="container"> 
-  <div class="row">  
-    <div class="col d-flex justify-content-center; x-auto">
-    
-<div class="card" style="width: 18rem; margin-top: 2em;">
-    <img class="card-img-top" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ8AAAC6CAMAAACHgTh+AAAAwFBMVEVCZ7LO2uD///87YrAtWqyKnszr7/ZASldDabfS3uRAYqfCztQnLTYaIzQmNVSirLI9XZ83PEU2X683P0o5UYE2SnIwOEYxPFEvNDz19/s7VYs6Q089WpUyP1hVdbhFabNyi8LK0uYQGy56kcU1R2svOUk8WJAaIjJKU2C2wclWXmYcIiw4PkZLbrWJlKQ5QVHb4e+5xN6jstVderolLTx1foqTpc9qhb+8yNVibHfBy+Kvu9rV3OwAABmjr70xRGs/KRT5AAADQklEQVR4nO3a/0/aQBjH8dprscDY4PhWBCkIDpljQ3E4dXP//3+1u2uFlgn+NI+m71di8oRcyD0f7rlCouMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAgRMEge1NHIvAGbTa7dZZhUiUoDLthI1ms9kIu2cE4rTD5mmiH17Wi57IeXia0g8LfkS68eHoq3npE0gwbegQGuG01Wp3w74JpG57V/YMQpNAWz1i1AO33tXpNLu2d2VN0O3rOAabCTnvqEDCzzb3ZFNdH4+wlbowLnVA5wW9QYK2ukz73VT3gRmg0N6WrArO1WlopI+HE+gDEg6sbcmquPnM4ySYqiPTKOoj19yelfQrZoSaLVsbsow8svbmUcB5Ub/to0Pno2CRBO1arTZL/l4xm9re4bsKplfz6kFf2kU6IZXrk/LJIeVPH4uUR/3r4TgKl0eDPNLII4s8ssgj6988yuSRbr86L+cmD2+x8JJSOkNPxKWQQyGT0htGLyu8aLtYDKXYrHBk6i138ih/u5h9r+Ykj2jpusuFKeWN6/ZGpkfp91z31vQoViXXHcedi7Hrloam9m7VYt+skCO1+MbbvudOHtVap3P3o5yLPDwVh+pR9yWfdOkOVSlGpvR156Kny7Fu1xvrsmdeXZsV97pemfJ2e0J28vip83jIRR4i7sX05fXivlQpH025VCEIP14RqdVRXE7ES47ujdzkWNoekN15ubrrzJ7zkcd9Ko+4fNItjjctvuShR2rhbo6NVzLlWMZjpo/N3jxUILXnbELHmocje5sRiKfB1RdIMg06Gme4/fSTEHQ0yaHQ0STD9bh3Xk7KDxfznOQRH5D4Eo1Km2vA0wPzK74t9QHpDc3qlU4vuUT1wMSXqL5a3VLqTXOchyMc34+S56acrFfJpyzv16NkAOTCn4jk+SIm/iJZ4Y22i1fryYHnrcrjd27y0E2+Xu55+a0VzivfT6vP+fk+9h/wfT2L33NZ5JFFHlnkkUUeWeSRVbmelw97+FOkPIKz6w+HFe6/6iqH2d4eAADvRBwD2yFsiYlv3+R4AhHLkn1L+fZG34t3DGyHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABy9vwjwSjuXvDo2AAAAAElFTkSuQmCC" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Password Generator</h5>
-      <p class="card-text">This app allows the user to generate a random password based on the criteria they've selected. This app runs in the browser. The user must select one character type and the password length must meet length requirements </p>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Languages: JavaScript 43.0%, CSS 39.2%, HTML 17.8% </li>
-    </ul>
-    <div class="card-body">
-      <a href="https://github.com/mw18/mward_pwgenerator" class="card-link">GitHub</a>
-      <a href="https://mw18.github.io/mward_pwgenerator/" class="card-link">Deployed</a>
-    </div>
-  </div>
-<!--project 2-->
-  <div class="card" style="width: 18rem;margin-top: 2em;">
-    <img class="card-img-top" src="https://us.123rf.com/450wm/gmast3r/gmast3r1901/gmast3r190100427/115440185-stock-vector-happy-couple-eating-pizza-man-woman-watching-tv-on-couch-modern-apartment-home-interior-male-female-.jpg?ver=6" alt="Card image cap" >
-    <div class="card-body">
-      <h5 class="card-title">Dinner and a Show </h5>
-      <p class="card-text">This app is designed for our current pandemic lifestyle where we are constanlty seeking food and immediate entertainment suggestions. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!</p>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Languages: JavaScript 68.8%, CSS 7.7%, HTML 23.5%</li>
-    </ul>
-    <div class="card-body">
-      <a href="https://github.com/group-6-project-1/Dinner-and-a-show" class="card-link">GitHub</a>
-      <a href="https://group-6-project-1.github.io/Dinner-and-a-show/" class="card-link">Deployed</a>
-    </div>
-  </div>
-<!--project 3-->
-<div class="card" style="width: 18rem;margin-top: 2em;">
-  <img class="card-img-top" src="https://static.vecteezy.com/system/resources/previews/000/098/703/non_2x/vector-weather-icon-set.jpg" alt="Card image cap" >
-  <div class="card-body">
-    <h5 class="card-title">Weather App </h5>
-    <p class="card-text">This app retreives data from a Thrid-party API, OpenWeatherMap. This app allows users to see the curent temperature, humidity, and wind speed for a city. </p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Languages: JavaScript 41.0%, CSS 23.7%, HTML 35.3%</li>
-  </ul>
-  <div class="card-body">
-    <a href="https://github.com/mw18/weatherDashboard" class="card-link">GitHub</a>
-    <a href="https://mw18.github.io/weatherDashboard/" class="card-link">Deployed</a>
-  </div>
-</div>
 
+  <hr class="mt-2 mb-5">
+  
+    <h2 class="font-weight-light text-center text-lg-left">Front-end Projects:</h2>
+    <div class="row text-center text-lg-left">
+      <!--project 1-->
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-center; x-auto">
+
+            <div class="card" style="width: 18rem; margin-top: 2em;">
+              <img class="card-img-top"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ8AAAC6CAMAAACHgTh+AAAAwFBMVEVCZ7LO2uD///87YrAtWqyKnszr7/ZASldDabfS3uRAYqfCztQnLTYaIzQmNVSirLI9XZ83PEU2X683P0o5UYE2SnIwOEYxPFEvNDz19/s7VYs6Q089WpUyP1hVdbhFabNyi8LK0uYQGy56kcU1R2svOUk8WJAaIjJKU2C2wclWXmYcIiw4PkZLbrWJlKQ5QVHb4e+5xN6jstVderolLTx1foqTpc9qhb+8yNVibHfBy+Kvu9rV3OwAABmjr70xRGs/KRT5AAADQklEQVR4nO3a/0/aQBjH8dprscDY4PhWBCkIDpljQ3E4dXP//3+1u2uFlgn+NI+m71di8oRcyD0f7rlCouMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAgRMEge1NHIvAGbTa7dZZhUiUoDLthI1ms9kIu2cE4rTD5mmiH17Wi57IeXia0g8LfkS68eHoq3npE0gwbegQGuG01Wp3w74JpG57V/YMQpNAWz1i1AO33tXpNLu2d2VN0O3rOAabCTnvqEDCzzb3ZFNdH4+wlbowLnVA5wW9QYK2ukz73VT3gRmg0N6WrArO1WlopI+HE+gDEg6sbcmquPnM4ySYqiPTKOoj19yelfQrZoSaLVsbsow8svbmUcB5Ub/to0Pno2CRBO1arTZL/l4xm9re4bsKplfz6kFf2kU6IZXrk/LJIeVPH4uUR/3r4TgKl0eDPNLII4s8ssgj6988yuSRbr86L+cmD2+x8JJSOkNPxKWQQyGT0htGLyu8aLtYDKXYrHBk6i138ih/u5h9r+Ykj2jpusuFKeWN6/ZGpkfp91z31vQoViXXHcedi7Hrloam9m7VYt+skCO1+MbbvudOHtVap3P3o5yLPDwVh+pR9yWfdOkOVSlGpvR156Kny7Fu1xvrsmdeXZsV97pemfJ2e0J28vip83jIRR4i7sX05fXivlQpH025VCEIP14RqdVRXE7ES47ujdzkWNoekN15ubrrzJ7zkcd9Ko+4fNItjjctvuShR2rhbo6NVzLlWMZjpo/N3jxUILXnbELHmocje5sRiKfB1RdIMg06Gme4/fSTEHQ0yaHQ0STD9bh3Xk7KDxfznOQRH5D4Eo1Km2vA0wPzK74t9QHpDc3qlU4vuUT1wMSXqL5a3VLqTXOchyMc34+S56acrFfJpyzv16NkAOTCn4jk+SIm/iJZ4Y22i1fryYHnrcrjd27y0E2+Xu55+a0VzivfT6vP+fk+9h/wfT2L33NZ5JFFHlnkkUUeWeSRVbmelw97+FOkPIKz6w+HFe6/6iqH2d4eAADvRBwD2yFsiYlv3+R4AhHLkn1L+fZG34t3DGyHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABy9vwjwSjuXvDo2AAAAAElFTkSuQmCC"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Password Generator</h5>
+                <p class="card-text">This app allows the user to generate a random password based on the criteria
+                  they've selected. This app runs in the browser. The user must select one character type and the
+                  password length must meet length requirements </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Languages: JavaScript 43.0%, CSS 39.2%, HTML 17.8% </li>
+              </ul>
+              <div class="card-body">
+                <a href="https://github.com/mw18/mward_pwgenerator" class="card-link">GitHub</a>
+                <a href="https://mw18.github.io/mward_pwgenerator/" class="card-link">Deployed</a>
+              </div>
+            </div>
+            <!--project 2-->
+            <div class="card" style="width: 18rem;margin-top: 2em;">
+              <img class="card-img-top"
+                src="https://us.123rf.com/450wm/gmast3r/gmast3r1901/gmast3r190100427/115440185-stock-vector-happy-couple-eating-pizza-man-woman-watching-tv-on-couch-modern-apartment-home-interior-male-female-.jpg?ver=6"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Dinner and a Show </h5>
+                <p class="card-text">This app is designed for our current pandemic lifestyle where we are constanlty
+                  seeking food and immediate entertainment suggestions. Enter your city and it will display the top
+                  restaurants in your area and the perfect tv show related to that cuisine!</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Languages: JavaScript 68.8%, CSS 7.7%, HTML 23.5%</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://github.com/group-6-project-1/Dinner-and-a-show" class="card-link">GitHub</a>
+                <a href="https://group-6-project-1.github.io/Dinner-and-a-show/" class="card-link">Deployed</a>
+              </div>
+            </div>
+            <!--project 3-->
+            <div class="card" style="width: 18rem;margin-top: 2em;">
+              <img class="card-img-top"
+                src="https://static.vecteezy.com/system/resources/previews/000/098/703/non_2x/vector-weather-icon-set.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Weather App </h5>
+                <p class="card-text">This app retreives data from a Thrid-party API, OpenWeatherMap. This app allows
+                  users to see the curent temperature, humidity, and wind speed for a city. </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Languages: JavaScript 41.0%, CSS 23.7%, HTML 35.3%</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://github.com/mw18/weatherDashboard" class="card-link">GitHub</a>
+                <a href="https://mw18.github.io/weatherDashboard/" class="card-link">Deployed</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  </div>
-</div>
-</div> 
-</div>
-<!-------------------------------------------------------------Back end Projects -------------------
+  <!-------------------------------------------------------------Back end Projects ------------------->
   
 
 <div class="container" id="portfolio">
 <hr class="mt-2 mb-5">
 <h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">Backend-end Projects:</h2>
   <div class="row text-center text-lg-left">
-  <!--project 1-
+
 <div class="container"> 
   <div class="row">  
     <div class="col d-flex justify-content-center; x-auto">
@@ -116,8 +247,7 @@
       <a href="" class="card-link">GitHub</a>
       <a href="" class="card-link">Deployed</a>
     </div>
-  </div>->
-  <!--project 2
+  </div>
   <div class="card" style="width: 18rem;margin-top: 2em;">
     <img class="card-img-top" src="" alt="Card image cap" >
     <div class="card-body">
@@ -131,8 +261,8 @@
       <a href="" class="card-link">GitHub</a>
       <a href="" class="card-link">Deployed</a>
     </div>
-  </div>-->
-  <!--project 3
+  </div>
+ 
 <div class="card" style="width: 18rem;margin-top: 2em;">
   <img class="card-img-top" src="" alt="Card image cap" >
   <div class="card-body">
@@ -153,57 +283,55 @@
 </div>
 </div>
   
-</div> -->
-                            
-
-  <!---------------------------------------------About Me------------------------------------------->
-     <div class="container" id="aboutme">
-
-      <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">About Me</h1>
-    
-      <hr class="mt-2 mb-5">
-    
-      <img src="https://lh3.googleusercontent.com/-M7smeQ6RIZk/XpjmLlY2FPI/AAAAAAAAABc/kIq89LZXqxc7y_Kqk0FKtJrtZICFmhQGQCEwYBhgLKtQDAL1OcqyGixtgtz6hrvr4YfSoPGI5nJASohEyQ_5CSX7M9wYnJc4GG-t77atcEAd7BkS0PCYbE_IE6GcYWfAuSykULOS-7qWo93TgKwRkcJpE2t5ThqhZUPMRx4x_tM8aha5qTm-LyN_visiQ6Edp4WalwGkYpTYFeRfiTjabk-OaP9dJy9PEAGsl-kV9si-BbPzQRT_USLGFNn76wW2MolGZQeACzFH_mtCPKJ9rqzkLniGNLk4IZ6lNB94UgLtvy_0_D4XE0w3o80PVXVb5kTioAwjcY_Awj-5lXzZzlB2vzonCgC0y06E9JpudFGWuMM3sH0b9kp8hrFeU_qLX1DF7lypSlgYRk-EZcp8-FNXJ7QXdLcaJETCYjQxgAWVabILbtui1VaZizEACFcAYSPV2mtIotU2amsJTVZvBPMUpb-tk0vTNvjdcsI96Z_lncnF3X079-AnmzlD4UbqBMq9udzD13BNr9v3TscRhzdEvhdl4qQFolUc12Nu__XkollzYQSvzeQlw0tnVbLdDMljaqnLsWXJp_kM9oH7zREMZE9loxw4xkaApnIqH_viaQhSE5PXb-1gPwYnBgmmq6cRls8nwij3KtefupeElIVJBXyY6MKW4hPwF/w138-h140-p/2020-04-16.jpg
-      " alt="Melissa" width="100" height="100" class="float-left mr-2" >
-      <p class="text-justify">I am currently enrolled in Northwestern University's Part-time Coding Bootcamp to become a Software Engineer. Please review my resume and portfolio.
-      </p> 
-      <iframe src="https://drive.google.com/file/d/1OSxX60-_gmTSgy5y3a_FuM86hcoS0lGc/preview" width="640" height="480"></iframe>
-    </div>   
-
-<!---------------------------------------Contact Me---------------------------------------------->
-<div class="container" id="contact">
-
-  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Contact Me</h1> 
-
-  <hr class="mt-2 mb-5">
-
-        <form class="Contact Me" action="/action_page.php">
-          <div class="form-group">
-          <label class="control-label col-sm-2" for="email">Name:</label>
-      <div class="col-sm-10">
-          <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
-        </div>
-      <div class="form-group">
-        <label class="control-label col-sm-2" for="email">Email:</label>
-        <div class="col-sm-10">
-          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-        </div>
-      </div>
-      <div class="form-group">
-        <label class="control-label col-sm-2" for="pwd">Message:</label>
-        <div class="col-sm-10">          
-          <input row=3 type="message" class="form-control" id="msg" placeholder="Enter Message" name="msg">
-        </div>
-      </div>
-      <div class="form-group">        
-        <div class="col-sm-offset-2 col-sm-10">
-         <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-           Submit
-         </button>
-        </div>
-      </div>
-    
 </div>
 
+    <!---------------------------------------Contact Me---------------------------------------------->
+    <div class="container" id="contact">
+
+      <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Contact Me</h1>
+
+      <hr class="mt-2 mb-5">
+
+      <form class="Contact Me" action="/action_page.php">
+        <div class="form-group ">
+          <label for="exampleInputName1"></label>
+          <input type="name" class="form-control mt-x-0" id="exampleInputName1" aria-describedby="emailHelp"
+            placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1"></label>
+          <input type="email" class="form-control mt-x-0" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="exampleTextarea"></label>
+          <textarea class="form-control" id="exampleTextarea" placeholder="Message" rows="3"></textarea>
+        </div>
+
+        <div class="col-sm-offset-2 col-sm-10 d-flex align-items-center justify-content-center">
+          <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false"
+            autocomplete="off">Submit
+        </div>
+
+        <footer id="colophon" class="site-footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-4 col-xs-12">
+                      <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
+                      <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
+                      <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
+                      <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
+                  </div>
+                  <div class="col-sm-4 col-xs-3">
+                      <div class="text-right page-scroll">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer><!-- /#footer -->
+
+    </div>
+
 </body>
+
 </html>
