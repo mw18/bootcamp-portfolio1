@@ -275,7 +275,7 @@
       box-shadow: none;
   }
   
-  .progress-bar-animated {
+  .progress-bar {
       background-color: #212121; 
   }
   
@@ -447,11 +447,24 @@
       margin-top: 40px;
   }
   
+
+
+  .card-deck {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
+
+
 /* contact
   ================================================== */
 #contact {
     text-align: center;
-}
+    }
 
 
   /* FOOTER
