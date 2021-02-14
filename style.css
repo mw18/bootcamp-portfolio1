@@ -201,15 +201,18 @@
   /* HERO
   ================================================== */
   .hero { 
-      background: url(../img/hero.jpg) no-repeat center / cover; 
+      background: url(https://i.pinimg.com/originals/06/18/3e/06183e556cca2326e68e29754921d7e4.jpg) no-repeat center / cover; 
       height: 100%;
       width: 100%;
       min-height: 700px;
+      
   }
   
   .hero .container {
       position: relative;
       height: 100%;
+      
+      
   }
   
   .hero .col-md-6:first-child {
@@ -222,12 +225,14 @@
       -moz-transform: translateY(-50%);
       -o-transform: translateY(-50%);
       z-index: 2;
+      
   }
   
   .hero .col-md-6:last-child {
       position: absolute;
       right: 0;
       bottom: 0;
+      
   }
   
   .hero h1 {
@@ -235,6 +240,7 @@
       font-weight: 700;
       margin: 0 0 15px;
       text-transform: uppercase;
+      
   }
   
   .job-title {
@@ -245,7 +251,10 @@
   
   .hero img {
       height: 600px;
+      opacity: 0.5;
   }
+
+ 
   
   /* SITEMAIN
   ================================================== */
